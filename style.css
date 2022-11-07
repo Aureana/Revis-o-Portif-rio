@@ -76,9 +76,19 @@ a{
 .my-name {
     color: #21a6f0;
 }
-.profile-img {
+/* .profile-img {
     border-radius: 50%;
-} 
+}  */
+.profile-img {
+
+    background: rgb(172, 221, 236);
+    background: linear-gradient(0deg, rgb(140, 36, 182) 0%, rgb(218, 56, 83) 100%);
+    padding: 8px;
+    ;
+
+    border-radius: 50%;
+
+}
 
 /*..............TECH......................*/
 
@@ -288,4 +298,184 @@ html body .section-about-time-tag { /* Just to add selector priority */
 
 .content-data {
     margin-left: auto;
+}
+/* ================== CONTATO (about.html) ================== */
+
+/* Google Font CDN Link */
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.container{
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+
+.content .left-side::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #98857E;
+  }
+  .content .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+  .content .left-side .details i{
+    font-size: 30px;
+    color: #90562E;
+    margin-bottom: 10px;
+  }
+  .content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two{
+    font-size: 14px;
+    color: #afafb6;
+  }
+  .container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+  }
+  .content .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #90562E;
+  }*/
+
+  
+/* ================== CONTACT (contacts.html) ================== */
+
+.main-contact {
+
+    height: calc(100vh - 310px);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.main-contact h1 {
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+}
+
+
+
+.email-contact {
+
+    padding: 2px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    background: -webkit-linear-gradient(0deg, rgba(0, 192, 253, 1) 0%, rgba(231, 15, 170, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.footer {
+
+    display: flex;
+}
+
+.footer-logo {
+
+    font-style: italic;
+    padding: 2px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    background: -webkit-linear-gradient(0deg, rgba(0, 192, 253, 1) 0%, rgba(231, 15, 170, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-contact-footer {
+    display: flex;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.info-contact-footer p {
+    padding: 0 50px;
+    font-size: 18px;
+}
+
+.footer-social-icons {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-social-icons a {
+    padding: 4px;
+
+}
+
+.footer-footer {
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-footer {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-footer a:hover {
+    background-color: lightgray;
+
+}
+
+.nav-footer a {
+    font-size: 18px;
+    padding: 4px 8px;
+
+}
+
+.dif-footer {
+
+    font-size: 18px;
+    background: -webkit-linear-gradient(0deg, rgba(0, 192, 253, 1) 0%, rgba(231, 15, 170, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
 }
