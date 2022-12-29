@@ -23,7 +23,7 @@ a{
     justify-content: flex-end;
     height: 55px;
 } 
-.nav-group-logo{
+/* .nav-group-logo{
     color: #cd23b3;
     font-style: italic;
     font-weight: bold;
@@ -33,7 +33,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 .nav-group-page-items{
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
@@ -74,8 +74,12 @@ a{
 }
 
 .my-name {
-    color: #21a6f0;
+        
+    background: -webkit-linear-gradient(0deg, rgba(0, 192, 253, 1) 0%, rgba(231, 15, 170, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 /* .profile-img {
     border-radius: 50%;
 }  */
@@ -108,13 +112,6 @@ a{
      justify-content: space-around;
      margin-top: 70px;
  }
- .div-tech2{
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     padding: 50px 10px;
-     justify-content: space-between;
- }
  .segunda-aba h1{
     font-size: 36px;
     color: #42446e;
@@ -128,38 +125,31 @@ a{
  }
  /*.................Project ...................*/
 
- .section-projects {
-    font-family: 'Poppins', sans-serif;
-    /* 100vh - tamanho header */
-    min-height: calc(100vh - 55px);
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    padding-bottom: 50px;   
+ .main-projects {
+    font-family: calibri, sans-serif;  
+    height: 700px;   
 }
 
-.section-projects-intro {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-   
+.section-projects {    
+    margin-bottom: 10px;  
 }
 
 .section-projects h1 {
     font-size: 36px;
     color: #42446e;
-    margin: 32px 0;
+    margin: 8px;
 }
 
 .section-projects p {
-    font-size: 18px;
+    font-size: 22px;
     color: #666666;
+    margin: 8px;    
 }
 
 .section-projects-cards-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    gap:25px; 
 }
 
 .project-card {
@@ -200,7 +190,7 @@ a{
 .project-card-content .project-card-content-stacks {
     color: #42446e;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 16px;
 }
 
@@ -293,79 +283,13 @@ html body .section-about-time-tag { /* Just to add selector priority */
 }
 
 .content-work {
-    width: 250px;
+    width: 450px;
 }
 
 .content-data {
     margin-left: auto;
 }
-/* ================== CONTATO (about.html) ================== */
 
-/* Google Font CDN Link */
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-.container{
-  width: 85%;
-  background: #fff;
-  border-radius: 6px;
-  padding: 20px 60px 30px 40px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-.container .content{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.container .content .left-side{
-  width: 25%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 15px;
-  position: relative;
-}
-
-.content .left-side::before{
-    content: '';
-    position: absolute;
-    height: 70%;
-    width: 2px;
-    right: -15px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #98857E;
-  }
-  .content .left-side .details{
-    margin: 14px;
-    text-align: center;
-  }
-  .content .left-side .details i{
-    font-size: 30px;
-    color: #90562E;
-    margin-bottom: 10px;
-  }
-  .content .left-side .details .topic{
-    font-size: 18px;
-    font-weight: 500;
-  }
-  .content .left-side .details .text-one,
-  .content .left-side .details .text-two{
-    font-size: 14px;
-    color: #afafb6;
-  }
-  .container .content .right-side{
-    width: 75%;
-    margin-left: 75px;
-  }
-  .content .right-side .topic-text{
-    font-size: 23px;
-    font-weight: 600;
-    color: #90562E;
-  }*/
-
-  
 /* ================== CONTACT (contacts.html) ================== */
 
 .main-contact {
@@ -377,16 +301,12 @@ html body .section-about-time-tag { /* Just to add selector priority */
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
-
 .main-contact h1 {
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;
     font-size: 48px;
 }
-
-
 
 .email-contact {
 
@@ -397,9 +317,7 @@ html body .section-about-time-tag { /* Just to add selector priority */
     background: -webkit-linear-gradient(0deg, rgba(0, 192, 253, 1) 0%, rgba(231, 15, 170, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
-
 
 .footer {
 
