@@ -1,4 +1,4 @@
 # Revis-o-Portif-rio
-##Visualize meu portifólio:
+## Visualize meu portifólio:
 
 http://portifolio-aureana.surge.sh
